@@ -27,7 +27,7 @@ const ChatBotInterface = () => {
 
     try {
       // Make a request to the FastAPI backend
-      const response = await axios.post("http://localhost:8080/chat", {
+      const response = await axios.post("http://localhost:8000/chat", {
         message: userInput,
       });
 
